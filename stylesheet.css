@@ -1,3 +1,12 @@
+/* ----- Universal Styles ----- */
+#main_menu {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(250, 240, 224);
+}
+
 h1 {
     font-size: 32px;
 }
@@ -10,9 +19,25 @@ h3 {
     font-size: 32px;
 }
 
+#section_headers {
+    /* font-color: white; */
+}
+
+.footer {
+    text-align: center;
+}
+
 /* ----- Biography Page ----- */
 
 #biography_section {
-    padding: 25px;
+    padding: 5%;
+    border-width: 5px;
+    border-color: black;
+    margin: 10%;
     background-color: rgb(19, 146, 196);
+    
 }
+
+/* ----- Teaching Page ----- */
+
+/* ----- Contact Page ----- */
