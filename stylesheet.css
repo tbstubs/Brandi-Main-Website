@@ -9,21 +9,24 @@ body {
 
 h1 {
     font-size: 32px;
+    text-align: center;
 }
 
 h2 {
     font-size: 20px;
+    text-align: center;
 }
 
 h3 {
     font-size: 32px;
+    text-align: center;
 }
 
 #section_headers {
     /* font-color: white; */
 }
 
-.footer {
+footer {
     text-align: center;
 }
 
