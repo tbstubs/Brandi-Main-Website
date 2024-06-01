@@ -7,7 +7,9 @@
 
 #logo {
     width: 400px;
-    align-content: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 body {
@@ -43,6 +45,13 @@ footer {
     background-color: rgb(19, 146, 196);
 }
 
+#bio_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
 /* ----- Teaching Page ----- */
 
 #teaching_statement {
@@ -53,4 +62,18 @@ footer {
     background-color: rgb(19, 146, 196);
 }
 
+#teaching_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px
+}
+
 /* ----- Contact Page ----- */
+
+#contact_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px
+}
