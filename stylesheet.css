@@ -35,6 +35,14 @@ h3 {
     text-align: center;
 }
 
+#nav_menu_and_text {
+    padding: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(113, 195, 228, 0.267);
+    border-radius: 30px;
+}
+
 p {
     font-size: 20px;
 }
@@ -59,9 +67,7 @@ footer {
 
 #biography_section {
     padding: 5%;
-    border-width: 5px;
-    border-color: black;
-    margin: 10%;
+    margin: 40px;
     background-color: rgba(113, 195, 228, 0.658);
     border-radius: 30px;
 }
