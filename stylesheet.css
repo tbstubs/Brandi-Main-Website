@@ -33,8 +33,13 @@ h3 {
     text-align: center;
 }
 
+p {
+    font-size: 20px;
+}
+
 footer {
     text-align: center;
+    background-color: aliceblue;
 }
 
 /* ----- Biography Page ----- */
@@ -44,7 +49,8 @@ footer {
     border-width: 5px;
     border-color: black;
     margin: 10%;
-    background-color: rgb(19, 146, 196);
+    background-color: rgba(113, 195, 228, 0.658);
+    border-radius: 30px;
 }
 
 #bio_pic {
