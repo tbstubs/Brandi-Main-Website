@@ -6,14 +6,16 @@
 }
 
 #logo {
-    width: 400px;
+    width: 50%;
     display: block;
     margin-right: auto;
     margin-left: auto;
 }
 
 body {
-    background-color: rgb(250, 240, 224);
+    /* background-color: rgb(250, 240, 224); */
+    background-image: url('Photos and Logo/regal_pattern.png');
+    background-size: 50%;
 }
 
 h1 {
