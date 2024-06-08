@@ -1,9 +1,23 @@
 /* ----- Universal Styles ----- */
 
+.urbanist-site_fonts {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <100>;
+    font-style: normal;
+}
+
 #main_menu {
+    background-color: aliceblue;
     text-align: center;
     font-size: 30px;
-    
+    padding: 20px
+}
+
+#main_menu a {
+    color: black;
+    padding: 15px;   
+    text-decoration: none;
 }
 
 #logo {
@@ -22,7 +36,6 @@ body {
 h1 {
     font-size: 40px;
     text-align: center;
-
 }
 
 h2 {
@@ -39,7 +52,7 @@ h3 {
     padding: 1%;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: rgba(113, 195, 228, 0.267);
+    /* background-color: rgba(113, 195, 228, 0.267); */
     border-radius: 30px;
 }
 
