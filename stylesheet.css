@@ -1,11 +1,11 @@
 /* ----- Universal Styles ----- */
 
-.urbanist-site_fonts {
-    font-family: "Urbanist", sans-serif;
+.montserrat-font_family {
+    font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
-}
+  }
 
 #main_menu {
     background-color: aliceblue;
@@ -33,7 +33,7 @@ body {
     background-color: aliceblue;
     background-image: url('Photos and Logo/regal_pattern.png');
     background-size: 50%;
-    font-family: "Urbanist", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 h1 {
