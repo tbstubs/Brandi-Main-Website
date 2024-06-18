@@ -20,7 +20,7 @@
     background-color: aliceblue;
     text-align: center;
     font-size: 30px;
-    padding: 20px;
+    padding: 0px;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -33,12 +33,18 @@
     font-weight: 500;
 }
 
-#logo {
-    width: 20%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+#nav_menu_and_text {
+    padding: 0%;
 }
+
+#logo {
+    width: 200px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
 
 body {
     background-color: aliceblue;
@@ -61,13 +67,6 @@ h2 {
 h3 {
     font-size: 32px;
     text-align: center;
-}
-
-#nav_menu_and_text {
-    padding: 1%;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-radius: 30px;
 }
 
 p {
@@ -94,23 +93,34 @@ footer {
     color: black;
     text-decoration: none;
     font-size: 20px;
+    border-radius: 40px;
 }
 
 /* ----- Biography Page ----- */
 
+#biography_contents {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 #biography_section {
-    padding: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 5%;
     background-color: rgba(113, 195, 228, 0.4);
     border-radius: 30px;
+    max-width: 1200px;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 #bio_pic {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 40%;
     float: left;
     padding-right: 20px;
@@ -122,17 +132,29 @@ footer {
 
 /* ----- Teaching Page ----- */
 
+#teaching_contents {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+    
 #teaching_statement {
-    padding: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 5%;
-    background-color: rgb(113, 195, 228, 0.4);
+    background-color: rgba(113, 195, 228, 0.4);
     border-radius: 30px;
+    max-width: 1200px;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 #teaching_pic {
-    display: flow-root;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -142,6 +164,11 @@ footer {
 
 /* ----- Contact Page ----- */
 
+#contact_contents {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 #contact_section {
     padding: 3%;
     margin-left: 5%;
@@ -149,6 +176,9 @@ footer {
     margin-bottom: 5%;
     background-color: rgba(113, 195, 228, 0.4);
     border-radius: 30px;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 #contact_button_container {
@@ -170,19 +200,23 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 50%;
+    float: right;
+    padding-left: 20px;
 }
 
 /* ----- Mobile Styling for Devices Under Specified Width ----- */
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
     #bio_pic {
-        display: flow-root;
+        display: black;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
-        padding-bottom: 30px;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 20px;
     }
 
     #logo {
@@ -190,6 +224,26 @@ footer {
         display: block;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    #teaching_pic {
+        display: black;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 20px;
+    }
+
+    #contact_pic {
+        display: black;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 20px;
     }
 
 }
