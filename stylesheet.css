@@ -44,7 +44,9 @@
     vertical-align: middle;
 }
 
-
+#mobile_logo {
+    display: none;
+}
 
 body {
     background-color: aliceblue;
@@ -220,6 +222,14 @@ footer {
     }
 
     #logo {
+        width: 50%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        display: none;
+    }
+
+    #mobile_logo {
         width: 50%;
         display: block;
         margin-right: auto;
