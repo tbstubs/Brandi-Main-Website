@@ -131,6 +131,16 @@ footer {
     width: 40%;
     float: left;
     padding-right: 20px;
+    border-radius: 40px;
+}
+
+#bio_pic_2 {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    border-radius: 40px;
 }
 
 .biography {
@@ -167,6 +177,7 @@ footer {
     width: 50%;
     float: left;
     padding-right: 20px;
+    border-radius: 40px;
 }
 
 /* ----- Contact Page ----- */
@@ -210,6 +221,7 @@ footer {
     width: 50%;
     float: right;
     padding-left: 20px;
+    border-radius: 40px;
 }
 
 /* ----- Mobile Styling for Devices Under Specified Width ----- */
