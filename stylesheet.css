@@ -226,7 +226,7 @@ footer {
 
 /* ----- Mobile Styling for Devices Under Specified Width ----- */
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
 
     #bio_pic {
         display: black;
