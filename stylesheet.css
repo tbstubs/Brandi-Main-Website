@@ -73,6 +73,7 @@ h2 {
     font-weight: normal;
 }
 
+/* Biography text, teaching statement text, contact text */
 p {
     font-size: 1.25em;
 }
@@ -142,10 +143,6 @@ footer {
     border-radius: 40px;
 }
 
-.biography {
-    /* padding-left: 3rem;  */
-}
-
 /* ----- Teaching Page ----- */
 
 #teaching_contents {
@@ -187,12 +184,16 @@ footer {
 }
 
 #contact_section {
-    padding: 3%;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 5%;
     background-color: rgba(113, 195, 228, 0.4);
     border-radius: 30px;
+    max-width: 1200px;
     content: "";
     clear: both;
     display: table;
@@ -200,17 +201,17 @@ footer {
 
 #contact_button_container {
     text-align: center;
+    margin-bottom: 1.25rem;
 }
 
 #contact_button {
     text-align: center;
     background-color: aliceblue;
     border-radius: 40px;
-    padding: 13px;
+    padding: 1rem;
     color: black;
     text-decoration: none;
-    font-size: 20px;
-    margin: 15px;
+    font-size: 1.25;
 }
 
 #contact_pic {
@@ -230,10 +231,11 @@ footer {
     #main_menu {
         background-color: aliceblue;
         text-align: center;
-        font-size: .75rem;
-        padding: 0px;
+        font-size: 1.1rem;
+        padding: 1%;
         margin-left: 0%;
         margin-right: 0%;
+        margin-bottom: 1.5rem;
     }
     
     h1 {
@@ -258,6 +260,19 @@ footer {
     font-weight: 600;
     }
 
+    #footer_button {
+        background-color: rgb(113, 195, 228, 0.658);
+        padding: 1rem;
+        color: black;
+        text-decoration: none;
+        font-size: 1.25rem;
+        border-radius: 2em;
+    }
+
+    #footer_text {
+        padding-top: 1em;
+    }
+
     #bio_pic {
         display: black;
         margin-left: auto;
@@ -273,7 +288,7 @@ footer {
     }
 
     #mobile_logo {
-        width: 75%;
+        width: 80%;
         display: block;
         margin-right: auto;
         margin-left: auto;
