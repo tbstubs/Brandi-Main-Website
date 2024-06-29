@@ -33,13 +33,15 @@
     font-weight: 500;
 }
 
+/* On-hover effects for nav links */
 #main_menu a:hover {
     background-color: rgb(113, 195, 228, 0.658);
-    border-radius: 40px;
+    border-radius: 1.5em;
 }
 
-#nav_menu_and_text {
-    padding: 0%;
+/* Styling for client name and titles */
+#name_and_slogan {
+    padding: 0em;
 }
 
 #logo {
@@ -61,27 +63,24 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 4em;
     text-align: center;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 2em;
     text-align: center;
     font-weight: normal;
 }
 
-h3 {
-    font-size: 32px;
-    text-align: center;
-}
-
 p {
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
+/* h3 fonts and all page section headers styling */
 .section_headers {
-    font-size: 40px;
+    text-align: center;
+    font-size: 2.5em;
     font-weight: 600;
 }
 
@@ -99,7 +98,7 @@ footer {
     padding: 13px;
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     border-radius: 40px;
 }
 
@@ -144,7 +143,7 @@ footer {
 }
 
 .biography {
-    padding-left: 3rem; 
+    /* padding-left: 3rem;  */
 }
 
 /* ----- Teaching Page ----- */
@@ -226,7 +225,38 @@ footer {
 
 /* ----- Mobile Styling for Devices Under Specified Width ----- */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
+
+    #main_menu {
+        background-color: aliceblue;
+        text-align: center;
+        font-size: .75rem;
+        padding: 0px;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    h1 {
+        font-size: 3em;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 1.4em;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    /* h3 fonts and all page section headers styling */
+    .section_headers {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    }
 
     #bio_pic {
         display: black;
@@ -239,15 +269,11 @@ footer {
     }
 
     #logo {
-        width: 50%;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
         display: none;
     }
 
     #mobile_logo {
-        width: 50%;
+        width: 75%;
         display: block;
         margin-right: auto;
         margin-left: auto;
